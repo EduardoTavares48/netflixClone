@@ -24,13 +24,28 @@
     font-family: 'Arial Black', Times;
     font-size: 40px;
   }
+
+  header .logo img {
+    width: 100px;
+    height: 100%;
+  }
+
+  .logo:hover {
+    cursor: pointer;
+  }
+
   header nav a {
     text-decoration: none;
     color: #aaa;
-    margin-right: 20px;
+    margin-right: 30px;
   }
   header nav a:hover {
     color: #fff;
+  }
+
+  header nav img {
+    width: 20px;
+    height: 20px;
   }
   
   /* Filme principal */
@@ -50,12 +65,17 @@
   .filme-principal .descricao {
       margin-bottom: 50px;
       margin-top: 20px;
+      font-weight: bold;
   }
 
   .filme-principal .titulo {
       margin-top: 15%;
       font-size: 50px;
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .logoMR {
+    width: 50%;
   }
 
   .botao {
@@ -82,7 +102,7 @@
   }
 
   .container {
-    margin-left: 20px;
+    margin-left: 30px;
   }
 
   .filme-principal .container {
@@ -97,4 +117,5 @@
 
   .carrosel-filmes {
     margin-top: 5px;
+    /*margin-left: 30px;*/
   }
